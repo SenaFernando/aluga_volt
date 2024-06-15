@@ -1,0 +1,11 @@
+{% extends "socialaccount/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Falha no Login da Rede Social" %}{% endblock %}
+
+{% block content %}
+<h1>{% trans "Falha no Login da Rede Social" %}</h1>
+
+<p>{% trans "Ocorreu um erro ao tentar fazer login através da sua conta de rede social." %}</p>
+{% endblock %}

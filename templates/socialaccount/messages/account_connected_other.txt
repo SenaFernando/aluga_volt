@@ -1,0 +1,2 @@
+{% load i18n %}
+{% blocktrans %}A conta social já está conectada a uma conta diferente.{% endblocktrans %}
